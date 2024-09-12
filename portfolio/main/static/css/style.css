@@ -511,6 +511,67 @@ textarea {
   }
 }
 
+.error-field {
+  font-size: 1.4rem !important;
+  font-weight: 550 !important;
+  color: #8B0000 !important;
+  text-align: left !important;
+  margin-top: 12px !important;
+}
+
+.thank-you-page-body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background: rgb(14, 30, 37);
+  color: white;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.thank-you-main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.thank-you-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  max-width: 410px;
+  padding: 24px;
+  background: white;
+  color: rgb(14, 30, 37);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 0 rgba(14, 30, 37, 0.16);
+}
+
+.thank-you-header {
+  margin: 0;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.thank-you-message {
+  font-size: 16px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.back-link {
+  margin: 0;
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 24px;
+  color: #007067;
+  font-size: 16px;
+}
+
 .project-cs-hero {
   color: #fff;
   background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
