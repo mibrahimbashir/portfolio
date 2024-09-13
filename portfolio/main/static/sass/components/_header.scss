@@ -24,7 +24,7 @@
     transition: color .3s;
 
     &:hover {
-      color: $themeClrPrimary;
+      color: #7843E9;
     }
   }
   &__logo-img-cont {
@@ -71,7 +71,7 @@
     transition: color .3s;
 
     &:hover {
-      color: $themeClrPrimary;
+      color: #7843E9;
     }
     @include respond(tab-port) {
       padding: 3rem 1.8rem;
@@ -133,7 +133,7 @@
       transition: color .3s;
       
       &:hover {
-        color: $themeClrPrimary;
+        color: #7843E9;
       }
     }
     &:first-child {

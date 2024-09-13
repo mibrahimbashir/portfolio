@@ -5,7 +5,7 @@
       rgba($themeClrPrimary, 0.8),
       rgba($themeClrPrimary, 0.8)
     ),
-    url(../../assets/svg/common-bg.svg);
+    url('/static/assets/svg/common-bg.svg');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -108,6 +108,8 @@
       }
       &:last-child {
         margin: 0;
+        border: 2px #7843E9 solid;
+        color: #111;
         @include respond(phone) {
           margin: 0;
         }

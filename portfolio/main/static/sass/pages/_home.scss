@@ -5,10 +5,10 @@
       rgba($themeClrPrimary, 0.8),
       rgba($themeClrPrimary, 0.8)
     ),
-    url(../../assets/svg/common-bg.svg);
+    url('/static/assets/svg/common-bg.svg');
   background-position: center;
 
-  height: 100vh;
+  height: 100vh;  
 
   min-height: 80rem;
   max-height: 120rem;
@@ -23,7 +23,10 @@
     position: absolute;
     top: 50%;
     border: 2px solid #eee;
+    background-color: white;
+    padding: 5px;
     border-left: 2px solid #eee;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 2px;
     transform: translateY(-50%);
     @include respond(tab-port) {
       display: none;
@@ -52,7 +55,7 @@
     transition: background .3s;
 
     &:hover {
-      background: rgba(#fff,.1);
+      background: rgba(120,67,233,0.2);
     }
 
     &--bd-none {
@@ -104,13 +107,14 @@
       font-weight: 700;
       font-size: 2.8rem;
       margin-bottom: 3rem;
+      
       @include respond(phone) {
         font-size: 2.4rem;
       }
     }
     &-details-para {
       font-size: 1.8rem;
-      color: grey;
+      color: #666;
       max-width: 60rem;
       line-height: 1.7;
       margin-bottom: 1rem;
@@ -119,6 +123,7 @@
         margin: 0 3px;
       }
       &:last-child {
+        
         margin-bottom: 4rem;
       }
     }
@@ -193,7 +198,7 @@
       rgba($themeClrPrimary, 0.8),
       rgba($themeClrPrimary, 0.8)
     ),
-    url(../../assets/svg/common-bg.svg);
+    url('/static/assets/svg/common-bg.svg');
   background-size: cover;
   background-position: center;
 
@@ -351,4 +356,11 @@
   line-height: 24px;
   color: #007067;
   font-size: 16px;
+}
+
+.about__content-details-para a {
+  text-decoration: underline;
+  font-weight: 700;
+  color: #7843E9;
+  margin: 0 3px;
 }
